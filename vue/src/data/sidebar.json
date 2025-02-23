@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Dashboard",
+    "icon": "bi bi-clipboard-data-fill",
+    "route": "/admin",
+    "children": []
+  },
+  {
+    "name": "Sản phẩm",
+    "icon": "bi bi-box2-fill",
+    "route": "#",
+    "children": [
+      {
+        "name": "Danh sách sản phẩm",
+        "route": "products"
+      },
+      {
+        "name": "Danh sách danh mục",
+        "route": "catalogues"
+      },
+      {
+        "name": "Danh sách thương hiệu",
+        "route": "brands"
+      },
+      {
+        "name": "Danh sách thuộc tính",
+        "route": "attributes"
+      }
+    ]
+  }
+]

@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family:
+    'Source Sans Pro',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    'Helvetica Neue',
+    Arial,
+    sans-serif,
+    'Apple Color Emoji',
+    'Segoe UI Emoji',
+    'Segoe UI Symbol' !important;
+}
+a {
+  text-decoration: none !important;
+}
+.brand-link {
+  display: block;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  padding: 0.8125rem 0.5rem;
+  transition: width 0.3s ease-in-out;
+  white-space: nowrap;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.brand-link .brand-image {
+  float: left;
+  line-height: 0.8;
+  margin-left: 0.8rem;
+  margin-right: 0.5rem;
+  margin-top: -3px;
+  max-height: 33px;
+  width: auto;
+}
+
+.nav-link {
+  margin-bottom: 5px;
+  color: #c2c7d0 !important;
+}
+
+.nav-link i:not(.bi-caret-right-fill) {
+  margin-right: 18px;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  color: #fff !important;
+}
+.headerStyle {
+  transition: 0.3s ease-in-out;
+  margin-left: 74px !important;
+}
+.ant-message {
+  z-index: 1031 !important;
+}
+
+.ant-page-header.my-3 {
+  padding: 15px 24px !important;
+}
+
+.ant-page-header.my-3 .ant-page-header-content {
+  padding-top: 0;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  font-size: 12px;
+  position: relative;
+  display: inline-block;
+  width: 3.5em;
+  height: 2em;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 10px;
+}
+
+.slider:before {
+  position: absolute;
+  content: '';
+  height: 1.4em;
+  width: 1.4em;
+  border-radius: 5px;
+  left: 0.3em;
+  bottom: 0.33333333333em;
+  background-color: white;
+  transition: 0.2s all ease-in-out;
+}
+
+.switch input:checked + .slider {
+  background-color: green;
+}
+
+.switch input:checked + .slider:before {
+  transform: translateX(1.5em);
+}
+
+.ant-select-selector {
+  border-radius: 4px !important;
+}
+
+.ant-input-affix-wrapper {
+  border-start-start-radius: 4px !important;
+  border-end-start-radius: 4px !important;
+  border-start-end-radius: 0 !important;
+  border-end-end-radius: 0 !important;
+}
+
+button.css-dev-only-do-not-override-1p3hq3p {
+  height: 39px !important;
+  padding-bottom: 5px !important;
+}
+
+.disabled-row {
+  background-color: #f5f5f5; /* Màu nền xám nhạt */
+  pointer-events: none; /* Ngăn không cho click */
+  opacity: 0.6; /* Làm mờ hàng */
+}
+
+.ant-tabs-nav{
+  margin: 0 !important;
+}
+
+.mt-4-5 {
+  margin-top: 2.5rem !important;
+}
