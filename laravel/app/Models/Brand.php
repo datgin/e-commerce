@@ -16,10 +16,14 @@ class Brand extends Model
         'description',
         'logo',
         'website_url',
-        'published'
+        'published',
+        'seo_title',
+        'seo_description',
+        'seo_keywords'
     ];
 
     protected $casts = [
-        'published' => 'boolean'
+        'published' => 'boolean',
+        'seo_keywords' => 'array',
     ];
 }
